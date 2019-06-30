@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0px auto;
+    width: 80%;
+}
+
+/* Header */
+
+header {
+    background-color: #FAC769;
+    padding: 16px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header .col-12 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    margin-left: 20px;
+}
+
+header .col-6 a:hover {
+    opacity: 0.5;
+}
+
+header .col-6 a {
+    font-size: 13.6px;
+}
+
+header i {
+    color: white;
+    font-size: 25px;
+}
+
+.btn-header a {
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Cover */
+
+#cover {
+    background-image: url("../images/coverheadphone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#cover h1 {
+    font-size: 51.6px;
+    letter-spacing: -1px;
+    margin-left: 100px;
+    width: 80%;
+    line-height: 1.2;
+    padding-bottom: 24px;
+}
+
+#cover h4 {
+    letter-spacing: -1px;
+    margin-left: 100px;
+    line-height: 1.3;
+    padding-bottom: 8px;
+}
+
+#cover a {
+    background-color: white;
+    padding: 14px 30px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 110px;
+}
+
+/* Find Quality */
+
+#findquality {
+    padding: 90px;
+}
+
+#findquality h2 {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+#findquality p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+    text-indent: 20px;
+}
+
+#findquality a {
+    color: #66458e;
+    font-weight: 400;
+}
+
+#findquality a:hover {
+    color: black;
+}
+
+/* Free Download */
+
+#freedownload {
+    background-color: #FAC769;
+    padding: 45px;
+}
+
+#freedownload .row {
+    text-align: center;
+}
+
+#freedownload h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: white;
+}
+
+/* Hottest Headphones */
+
+#hottesthp {
+    padding: 90px;
+}
+
+#hottesthp img {
+    height: 232px;
+    width: 348px;
+}
+
+#hottesthp .mainsquarehp {
+    display: flex;
+    justify-content: center;
+}
+
+#hottesthp .squarehp {
+    height: 232px;
+    width: 348px;
+    background-color: #FAC769;
+    padding: 24px;
+}
+
+#hottesthp .squarehp p {
+    font-family: 'Rubik', sans-serif;
+    color: #ffff;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#hottesthp .squarehp h3 {
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+#hottesthp .col-4 {
+    padding: 0px 20px;
+}
+
+#hottesthp .absolutehp {
+    position: relative;
+}
+
+#hottesthp .absolutehp div {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    border-radius: 100px;
+    background-color: #fac769;
+    padding: 9.6px;
+    font-size: 13.6px;
+    line-height: 1.6;
+}
+
+#hottesthp h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* New Headphones */
+
+#newhp {
+    padding: 90px 0px;
+}
+
+#newhp .col-12 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#newhp img {
+    width: 261.50px;
+    height: 174.33px;
+    padding: 5px 8px;
+}
+
+#newhp h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 24px;
+}
+
+/* Pre-order */
+
+#preorder {
+    padding: 30px 0px;
+    background-color: #fac769;
+}
+
+#preorder .col-12 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#preorder h3 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+
+#preorder h2 {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#preorder a {
+    background-color: white;
+    padding: 14px 30px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 200px;
+}
+
+/* Visit Us */
+
+#visitus {
+    padding: 90px 0px;
+}
+
+#visitus .container {
+    position: relative;
+}
+
+#visitus .col-12 {
+    display: flex;
+}
+
+#visitus .h2visitus {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#visitus .col-3 {
+    padding: 10px;
+}
+
+#visitus .col-3 h2 {
+    position: absolute;
+    color: #fac769;
+    z-index: 0;
+    font-size: 64px;
+    font-weight: 700;
+    top: 30px;
+}
+
+#visitus .col-3 h4 {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+}
+
+#visitus .col-3 p {
+    margin-top: 32px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+    color: #767676;
+}
+
+#visitus .col-3 a {
+    font-weight: 400;
+    color: #fac769;
+}
+
+#visitus .col-3 a:hover {
+    color: #ffc107;
+}
+
+#visitus .lastvisitus h3 {
+    color: #767676;
+    line-height: 1.3;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+#visitus .lastvisitus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#visitus .lastvisitus h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+#visitus .lastvisitusrow {
+    padding-top: 30px;
+}
+
+/* Footer */
+
+footer {
+    padding: 90px 0px;
+}
+
+footer .col-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 91.19px;
+    height: 60.80px;
+}
+
+footer p {
+    color: #767676;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    width: 80%;
+    text-align: center;
+}
+
+footer a {
+    margin: 5px;
+    background-color: #fac769;
+    padding: 2px 13px;
+}
+
+footer a:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+footer a i {
+    color: white;
+}
